@@ -5,6 +5,8 @@ function Counter() {
 
   const onIncrease = () => {
     setNumber(prevNumber => prevNumber + 1);
+    //업데이트 함수를 사용한다.
+    //업데이트 함수는 최적화와 관련이 있다.
   };
 
   const onDecrease = () => {
